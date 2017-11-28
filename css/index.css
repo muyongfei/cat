@@ -1,8 +1,8 @@
 /*
 * @Author: Administrator
 * @Date:   2017-08-29 14:58:19
-* @Last Modified by:   Administrator
-* @Last Modified time: 2017-10-09 23:30:05
+* @Last Modified by:   cat
+* @Last Modified time: 2017-11-28 19:30:44
 */
 @import url('base.css');
 header{
@@ -15,7 +15,7 @@ header img{
 	width: 100%;
 	height: 100%;
 }
-.zhe{
+.ding{
 	width: 100%;
 	height: 100%;
 	position: absolute;
@@ -23,7 +23,7 @@ header img{
 	left: 0;
 	background: rgba(0, 0, 0, 0.8);
 }
-.zhe h1{
+.ding h1{
 	display: block;
 	position: absolute;
 	font-size: 80px;
@@ -40,7 +40,7 @@ header img{
 	line-height: 500px;
 
 }
-.z-icon{
+.dingic{
 	width: 160px;
 	height: 30px;
 	position: absolute;
@@ -50,18 +50,18 @@ header img{
 	margin-right: auto;
 	top: 300px;
 }
-.z-icon a{
+.dingic a{
 	line-height: 30px;
 	font-size: 22px;
 	color: #fff;
 	padding-right: 6px;
 	padding-left: 6px;
 }
-.z-icon i:hover{
+.dingic i:hover{
 	color: #ccc;
 	transition: all 0.5s;
 }
-.down{
+.di{
 	display: block;
 	width: 100px;
 	height: 100px;
@@ -75,14 +75,14 @@ header img{
 	margin-left: auto;
 	bottom: -50px;
 }
-.down b{
+.di b{
 	display: block;
 	color: #fff;
 	font-size: 23px;
 	line-height: 50px;
-	animation: jump 2s infinite;
+	animation: dong 2s infinite;
 }
-@keyframes jump{
+@keyframes dong{
 	0%{
 		transform: translateY(0);
 		opacity: 0.5;
@@ -100,6 +100,8 @@ header img{
 		opacity: 0;
 	}
 }
+
+/* 头完 */
 .about-section{
 	height: auto;
 	padding: 30px;
@@ -119,10 +121,10 @@ header img{
 	line-height: 27px;
 	margin-bottom: 20px;
 }
-.gun h4{
+.tiao h4{
 	margin-bottom: 18px;
 }
-.gun li{
+.tiao li{
 	height: 10px;
 	border-radius: 5px;
 	background: #d6d6d6;
@@ -130,31 +132,34 @@ header img{
 	position: relative; 
 	margin-bottom: 20px;
 }
-.gun div{
+.tiao div{
 	height: 100%;
 	position: absolute;
 	left: 0;
 	top: 0;
 	background: #000;
 	border-radius: 5px;
-	width: 80%; 
+	 
 }
-.gun span{
+.tiao span{
 	font-size: 15px;
 	position: absolute;
 	top: -20px;
 	right: 0; 
 }
-.gun .dong2{
+.tiao .tiao1{
+	width: 80%;
+}
+.tiao .tiao2{
 	width: 90%;
 }
-.gun .dong3{
+.tiao .tiao3{
 	width: 75%;
 }
-.gun .dong4{
+.tiao .tiao4{
 	width: 93%;
 }
-.gun .dong5{
+.tiao .tiao5{
 	width: 85%;
 }
 /* GRPHICE开始 */
@@ -180,65 +185,12 @@ header img{
 	text-align: center;
 	padding-top: 10px;
 }
-.xz:hover li{
-	width: 48px;
-	height: 48px;
-	opacity: 1;
-	transform: rotate(0);
-}
-.tu1 ul,.tu2 ul,.tu3 ul,.tu4 ul{
-	position: absolute;
-	top: 0;left: 0;
-	height: 50px;
-	width: 50px;
-}
-.tu1 ul li,.tu2 ul li,.tu3 ul li,.tu4 ul li{
-	width: 10px;
-	height: 10px;
-	position: absolute;
-	transform: rotate(90deg);
-	transition: all 1.2s;
-	opacity: 0;
-}
-.left{
-	left: 0;
-	top: 0;
-    border-left: 2px solid #333;
-    border-top: 2px solid #333;
-}
-.right{
-	top: 0;
-	right: 0;
-	border-right: 2px solid #333;
-    border-top: 2px solid #333;
-}
-.l-top{
-	bottom: 0;
-	left: 0;
-	border-left: 2px solid #333;
-    border-bottom: 2px solid #333;
-}
-.r-bottom{
-	bottom: 0;
-	right: 0;
-	border-right:2px solid #333;
-    border-bottom: 2px solid #333;
-}
 .tu h4{
 	margin-top: 10px;
 	margin-bottom: 18px;
 	color: #000;
 }
 .tu1{
-	width: 25%;
-}
-.tu2{
-	width: 25%;
-}
-.tu3{
-	width: 25%;
-}
-.tu4{
 	width: 25%;
 }
 /* PORTFOLIO开始 */
@@ -539,7 +491,7 @@ footer{
 	color: #ccc;
 }
 @media screen  and (max-width: 479px){
-	.zhe h1{
+	.ding h1{
 		font-size: 30px;
 	}
 	.cli li{
@@ -581,7 +533,7 @@ footer{
 	.get-right{
 		margin-top: 20px;
 	}
-	.zhe h1{
+	.ding h1{
 		font-size: 50px;
 	}
 }
@@ -602,7 +554,7 @@ footer{
 	.get-right{
 		margin-top: 20px;
 	}
-	.zhe h1{
+	.ding h1{
 		font-size: 70px;
 	}
 }
