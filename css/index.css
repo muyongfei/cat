@@ -2,9 +2,12 @@
 * @Author: Administrator
 * @Date:   2017-08-29 14:58:19
 * @Last Modified by:   cat
-* @Last Modified time: 2017-11-28 23:27:42
+* @Last Modified time: 2017-11-29 08:51:27
 */
 @import url('base.css');
+body{
+	font-family: Arial;
+}
 header{
 	height: 600px;
 	overflow: hidden;
@@ -441,7 +444,7 @@ header img{
 	border: 0;
 	resize: none;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-	font: 400 13.3333px Arial;
+	font: 400 13px Arial;
 }
 .text{
 	color: #fff;
